@@ -21,8 +21,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // Insert code here to initialize your application
         
         AppCenter.logLevel = LogLevel.verbose
-        AppCenter.logUrl = "https://in-integration.dev.avalanch.es"
-        let appSecret = "0dbca56b-b9ae-4d53-856a-7c2856137d85"
+        AppCenter.logUrl = ""
+        let appSecret = ""
         
         AppCenter.start(withAppSecret: appSecret, services: [Analytics.self, Crashes.self])
         

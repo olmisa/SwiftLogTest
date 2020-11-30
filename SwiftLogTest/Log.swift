@@ -7,11 +7,11 @@
 
 import Foundation
 
-class Log : NSObject {
+public class Log : NSObject {
     var name: String
     var breed: String
 
-    init(name: String, breed: String) {
+    public init(name: String, breed: String) {
         self.name = name
         self.breed = breed
     }
